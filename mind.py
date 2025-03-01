@@ -23,7 +23,7 @@ st.title("📈Datasweeper Sterling Integrator By Umm-E-Habiba")
 st.write("Transform your files between csv and excel formates with built-in data visualization creating the project for quarter 3!")
 
 #file uploader
-uploaded_files = st.file_uploader("upload your files(accepts cvs or Excel "): type=["cvs" , "xlsx"], accept_multiple_files=(True)
+uploaded_files = st.file_uploader("upload your files(accepts CSV or Excel):",type=["cvs" , "xlsx"], accept_multiple_files=(True))
 
 if uploaded_files :
     for file in uploaded_files :
