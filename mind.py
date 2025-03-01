@@ -75,7 +75,7 @@ if uploaded_files :
                                         buffer = BytesIO()
                                         if conversion_type == "csv" :
                                              df.to.csv(buffer, index=False)
-                                            file.name = file.name.replace(file_ext, "csv")
+                                              file_name = file.name.replace(file_ext, ".csv")
                                             mime_type = "text/csv"
 
                                             elif conversion_type == 'Excel':
