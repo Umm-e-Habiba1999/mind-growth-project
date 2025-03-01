@@ -35,7 +35,7 @@ if uploaded_files :
            df = pd.read_excel(file)
     else:
             st.error(f"unsupported files type : {file_ext}")
-            continue
+            'continue'
 
             #file details
             st.write("📊preview the head of the Dataframe")
