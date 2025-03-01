@@ -91,4 +91,4 @@ if uploaded_files :
                                                     mime=mime_type
                                                 )
                                    
-                              st.success("🙌All files processed successfully!")
+                               st.success("🙌All files processed successfully!")
