@@ -74,8 +74,8 @@ if uploaded_files :
                                     if st.button(f"convert{file.nme}"):
                                         buffer = BytesIO()
                                         if conversion_type == "csv" :
-                                             df.to.csv(buffer, index=False)
-                                              file_name = file.name.replace(file_ext, ".csv")
+                                            df.to.csv(buffer, index=False)
+                                            file_name = file.name.replace(file_ext, ".csv")
                                             mime_type = "text/csv"
 
                                             elif conversion_type == 'Excel':
